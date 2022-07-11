@@ -5,6 +5,8 @@
 #####################################################################################################################
 #####################################################################################################################
 */
+
+
 @font-face {
   font-family: 'Ailerons';
   src: URL('Fonts/Ailerons/Ailerons-Regular.otf') format('truetype');
@@ -143,9 +145,6 @@
   opacity: 0;
   /* border: 2.5px solid #FF1EAD; */
   border-radius: 14px;
-  box-shadow:
-    0 0 2px rgba(0, 0, 0, .75),
-    inset 0 0 2px rgba(0, 0, 0, .45);
 }
 
 .horizontal_expansion{
@@ -473,4 +472,44 @@
   to {
     background-position: 200% center;
   }
+}
+
+
+/*
+#####################################################################################################################
+#####################################################################################################################
+################################################ image text on hover ################################################
+#####################################################################################################################
+#####################################################################################################################
+*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-family: 'Stellar';
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
