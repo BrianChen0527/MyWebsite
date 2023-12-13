@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Text typing animation effect HTML, CSS &amp; JS</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-  <script src="scripts.js"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: Arial, sans-serif;
+        background-color: #fff; /* Set a background color in case the images don't cover the entire viewport */
+      }
 
-</head>
-<body style="background-color: wheat;">
-<!-- partial:index.partial.html -->
-<div class="word"></div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="scripts.js"></script>
+      /* First background layer */
+      .background-layer-1 {
+        background: url("background1.jpg") no-repeat center center fixed;
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
 
-</body>
+      /* Second background layer */
+      .background-layer-2 {
+        background: url("background2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        /* Adjust the speed of scrolling by changing the value of background-position */
+        animation: scrollBackground 20s linear infinite;
+      }
+
+      /* Keyframes to control the scrolling speed */
+      @keyframes scrollBackground {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 0 100%;
+        }
+      }
+
+      /* Content styling */
+      .content {
+        padding: 20px;
+        margin-top: 200px; /* Adjust this margin to avoid overlapping with the background */
+        z-index: 1;
+      }
+    </style>
+    <title>Multi-layer Background</title>
+  </head>
+  <body>
+    <div class="background-layer-1"></div>
+    <div class="background-layer-2"></div>
+
+    <div class="content">
+      <h1>Your Content Goes Here</h1>
+      <p>
+        This is an example of a multi-layered background with different scroll
+        speeds.
+      </p>
+    </div>
+  </body>
 </html>
