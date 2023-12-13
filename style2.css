@@ -1169,8 +1169,8 @@ body {
 
 .project__img {
   justify-self: center;
-  width: 30%;
-  object-fit: cover;
+  width: 25%;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {

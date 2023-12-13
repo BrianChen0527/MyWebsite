@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Brian Chen</title>
+    <!--=================== Google Fonts ====================-->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!--=================== Remixicons ====================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=================== SwiperJS CSS ====================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" type="text/css" href="projects_styles.css" />
+  </head>
+  <body>
+    <!--=================== main ====================-->
+    <div class="main_wrapper">
+      <div class="container-wrapper">
+        <div class="container">
+          <div class="header">
+            <div class="title">Simulation Pipelined RISC-V CPU</div>
+            <div class="description">Computer Architecture</div>
+            <div class="line">PLACEHOLDER</div>
+          </div>
+          <div class="subtitle1">Description:</div>
+          <ul>
+            <li>
+              Implemented a complete simulation of a 8-bit pipelined CPU that
+              runs on the LC-2K instruction architecture. The C program combines
+              the assembler, linker, pipeline, and cache to simulate the LC-2K
+              CPU.
+            </li>
+            <li>
+              The assembler takes as input an LC2K assembly file and outputs its
+              correct machine code representation into a machine code file.
+            </li>
+            <li>
+              The linker that combines multiple machine code files into one,
+              resolving any dependencies between the files.
+            </li>
+            <li>
+              The pipeline is a cycle-accurate behavioral simulator program
+              written in C, complete with data forwarding and simple branch
+              prediction.
+            </li>
+            <li>
+              The CPU cache is used by the processor simulation when the
+              processor accesses addresses. The cache supports a variety of
+              cache configurations:
+              <p></p>
+              <ul>
+                <li>Write Policy</li>
+                <li>Associativity</li>
+                <li>Size</li>
+                <li>Block Size</li>
+                <li>Replacement Policy</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="subtitle2">Skills:</div>
+          <div class="skills">
+            C, memory management, computer architecture design, operating system
+            design
+          </div>
+          <div class="subtitle2">Statistics:</div>
+          <div class="statistics-wrapper">
+            <div class="statistics">
+              <p class="statistics-number">100%</p>
+              <h2 class="statistics-title">
+                Autograder Tests
+                <br />
+                Passed
+              </h2>
+            </div>
+            <div class="statistics">
+              <p class="statistics-number">4</p>
+              <h2 class="statistics-title">
+                Key
+                <br />
+                Components
+              </h2>
+            </div>
+            <div class="statistics">
+              <p class="statistics-number">95%</p>
+              <h2 class="statistics-title">
+                Percentile Rank
+                <br />
+                Among Classmates
+              </h2>
+            </div>
+          </div>
+          <div class="link">
+            (Unavailable to view on GitHub due to school policy)
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=================== Main JS ====================-->
+    <script src="main.js"></script>
+  </body>
+</html>
