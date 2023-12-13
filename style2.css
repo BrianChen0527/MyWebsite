@@ -1169,7 +1169,7 @@ body {
 
 .project__img {
   justify-self: center;
-  width: 25%;
+  width: 20%;
   object-fit: contain;
 }
 
@@ -1239,24 +1239,25 @@ body {
 }
 
 
-/* Blog
+/* Research
 --------------------------------------------------------------*/
-.blog__wrapper {
+.research__wrapper {
   background: linear-gradient(var(--color-primary) 50%, white 50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.blog__container {
+.research__container {
   background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.blog__header {
+.research__header {
   max-width: 75rem;
+  min-height: 800px; /* Remove this when research content is added*/
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -1264,7 +1265,7 @@ body {
   padding-top: 6rem;
 }
 
-.blog__title {
+.research__title {
   text-align: center;
   padding-top: 3rem;
   color: white;
@@ -1273,7 +1274,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.blog__description {
+.research__description {
   text-align: center;
   color: white;
   line-height: 1.5;
@@ -1335,13 +1336,13 @@ body {
   }
 }
 
-.blog__link__shell {
+.research__link__shell {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.blog__link {
+.research__link {
   width: 50%;
   display: inline-block;
   padding: 1rem 1rem;
@@ -1356,7 +1357,7 @@ body {
   border: solid 1px white;
 }
 
-.blog__link:hover {
+.research__link:hover {
   background-color: var(--color-primary);
   color: #CCF381;
   border: solid 1px #CCF381;
@@ -1925,7 +1926,7 @@ button[type="submit"]:hover {
   border-radius: 50%;
 }
 
-.footer-link-blog {
+.footer-link-research {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   padding-left: 1.6rem;
