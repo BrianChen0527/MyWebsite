@@ -80,7 +80,6 @@ ul {
 }
 
 img {
-  border-radius: 15px;
   max-width: 100%;
   display: block;
 }
@@ -665,6 +664,7 @@ body {
 .education__content__description {
   padding-left: 0.6rem;
   padding-right: 4rem;
+  padding-bottom: 50px;
   font-size: medium;
   color: white;
 }
