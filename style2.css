@@ -1,8 +1,9 @@
 :root {
   /* Colors
   ____________________*/
-  --color-primary: #4831D4;
+  --color-primary: #00539C;
   --color-primary-dark: #208c61;
+  --color-primary-light: #ffba9a;
   --color-bg-primary: white;
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
@@ -219,7 +220,7 @@ body {
 }
 
 .nav__link:hover {
-  color: #CCF381;
+  color: var(--color-primary-light);
 }
 
 .nav__toggle {
@@ -231,7 +232,7 @@ body {
 }
 
 .nav__toggle:hover {
-  color: #CCF381;
+  color: var(--color-primary-light);
 }
 
 
@@ -269,7 +270,7 @@ body {
 
 .self__wrapper {
   position: relative;
-  background: linear-gradient(to left, var(--color-primary) 80%, #CCF381 80%);
+  background: linear-gradient(to left, var(--color-primary) 80%, var(--color-primary-light) 80%);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -327,7 +328,7 @@ body {
 }
 
 .self_bottom_title {
-  color: #CCF381;
+  color: var(--color-primary-light);
   font-size: 7rem;
   font-weight: 1000;
   margin-bottom: 1rem;
@@ -378,14 +379,14 @@ body {
 .self__info-number {
   font-size: var(--fs-xxl);
   font-weight: var(--fw-bold);
-  color: #CCF381;
+  color: var(--color-primary-light);
   align-self: center;
 }
 
 .self__info-title {
   font-size: medium;
   font-weight: 300;
-  color: #CCF381;
+  color: var(--color-primary-light);
   align-self: center;
 }
 
@@ -401,7 +402,7 @@ body {
 }
 
 .self__img {
-  max-width: 80%;
+  max-width: 100%;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
   margin-top: 5rem;
   border-radius: 10px;
@@ -491,7 +492,7 @@ body {
 }
 
 .skills__icon__shell1 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   color: white;
   padding: 1.5rem;
   padding-right: 1.5rem;
@@ -500,7 +501,7 @@ body {
 }
 
 .skills__icon__shell2 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   color: white;
   padding: 1.5rem;
   padding-right: 1.75rem;
@@ -509,7 +510,7 @@ body {
 }
 
 .skills__icon__shell3 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   color: white;
   padding: 1.5rem;
   padding-right: 1.85rem;
@@ -607,7 +608,7 @@ body {
 }
 
 .education__content {
-  border-top: solid 1px #CCF381;
+  border-top: solid 1px var(--color-primary-light);
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -623,7 +624,7 @@ body {
 }
 
 .education-icon-shell1 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -631,7 +632,7 @@ body {
 }
 
 .education-icon-shell2 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -639,7 +640,7 @@ body {
 }
 
 .education-icon-shell3 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -651,7 +652,7 @@ body {
   padding-left: 0.5rem;
   font-size: 2rem;
   font-weight: 800;
-  color: #CCF381;
+  color: var(--color-primary-light);
 }
 
 .education__content__school {
@@ -700,7 +701,7 @@ body {
 
 .education-link:hover {
   background-color: var(--color-primary);
-  color: #CCF381
+  color: var(--color-primary-light)
 }
 
 
@@ -779,7 +780,7 @@ body {
 
 .resume-link:hover {
   background-color: var(--color-primary);
-  color: #CCF381
+  color: var(--color-primary-light)
 }
 
 .timeline {
@@ -809,7 +810,7 @@ body {
 }
 
 .timeline-line {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   width: 0.2%;
   height: 100%;
 }
@@ -866,7 +867,7 @@ body {
 }
 
 .timeline-icon-shell1 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.1rem;
   padding-right: 1.1rem;
@@ -874,7 +875,7 @@ body {
 }
 
 .timeline-icon-shell2 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.1rem;
   padding-right: 1.1rem;
@@ -882,7 +883,7 @@ body {
 }
 
 .timeline-icon-shell3 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
@@ -890,7 +891,7 @@ body {
 }
 
 .timeline-icon-shell4 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -920,7 +921,7 @@ body {
 }
 
 .timeline-title {
-  color: #CCF381;
+  color: var(--color-primary-light);
   font-weight: 800;
   font-size: 2rem;
   padding: 1rem;
@@ -981,7 +982,7 @@ body {
 
 .timeline-link:hover {
   background-color: var(--color-primary);
-  color: #CCF381
+  color: var(--color-primary-light)
 }
 
 .qualification__footer {
@@ -1065,7 +1066,7 @@ body {
 }
 
 .project-line-inner {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   width: 0.5%;
   height: 100%;
 }
@@ -1078,7 +1079,7 @@ body {
 }
 
 .project-icon-shell1 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1086,7 +1087,7 @@ body {
 }
 
 .project-icon-shell2 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1094,7 +1095,7 @@ body {
 }
 
 .project-icon-shell3 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.15rem;
   padding-right: 1.15rem;
@@ -1102,7 +1103,7 @@ body {
 }
 
 .project-icon-shell4 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding: 1rem;
   padding-left: 1.35rem;
   padding-right: 1.35rem;
@@ -1234,8 +1235,8 @@ body {
 
 .project__content .project__link:hover {
   background-color: var(--color-primary);
-  color: #CCF381;
-  border: solid 1px #CCF381;
+  color: var(--color-primary-light);
+  border: solid 1px var(--color-primary-light);
 }
 
 
@@ -1306,7 +1307,7 @@ body {
 }
 
 .posts_title {
-  color: #CCF381;
+  color: var(--color-primary-light);
   font-weight: 700;
   font-size: 2.5rem;
   padding: 2rem;
@@ -1359,8 +1360,8 @@ body {
 
 .research__link:hover {
   background-color: var(--color-primary);
-  color: #CCF381;
-  border: solid 1px #CCF381;
+  color: var(--color-primary-light);
+  border: solid 1px var(--color-primary-light);
 }
 
 
@@ -1455,7 +1456,7 @@ body {
 }
 
 .contact-line {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   width: 0.5%;
 }
 
@@ -1525,7 +1526,7 @@ body {
 
 .contact-icon-shell1,
 .contact-icon-shell2 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding-top: 1rem;
   padding-bottom: 0.8rem;
   padding-left: 1.25rem;
@@ -1535,7 +1536,7 @@ body {
 }
 
 .contact-icon-shell3 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding-top: 1rem;
   padding-bottom: 0.8rem;
   padding-left: 1.6rem;
@@ -1545,7 +1546,7 @@ body {
 }
 
 .contact-icon-shell4 {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
   padding-left: 0.9rem;
@@ -1568,7 +1569,7 @@ body {
 
 .contact-link:hover {
   background-color: var(--color-primary);
-  color: #CCF381
+  color: var(--color-primary-light)
 }
 
 
@@ -1582,7 +1583,7 @@ body {
 }
 
 .contact-social-link:hover {
-  color: #CCF381;
+  color: var(--color-primary-light);
 }
 
 .first-line {
@@ -1659,8 +1660,8 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: var(--color-primary);
-  color: #CCF381;
-  border: solid 1px #CCF381;
+  color: var(--color-primary-light);
+  border: solid 1px var(--color-primary-light);
 }
 
 
@@ -1791,7 +1792,7 @@ button[type="submit"]:hover {
 .transition__img {
   align-items: center;
   justify-self: center;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 @media (max-width: 800px) {
@@ -1808,7 +1809,7 @@ button[type="submit"]:hover {
 .footer {
   display: flex;
   justify-content: center;
-  background-color: #3824AE;
+  background-color: #00539C;
   padding: 5rem 0;
 }
 
@@ -1973,7 +1974,7 @@ button[type="submit"]:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #CCF381;
+  background-color: var(--color-primary-light);
 }
 
 
@@ -1994,7 +1995,7 @@ button[type="submit"]:hover {
   }
 
   .self__wrapper {
-    background: linear-gradient(to left, var(--color-primary) 70%, #CCF381 70%);
+    background: linear-gradient(to left, var(--color-primary) 70%, var(--color-primary-light) 70%);
   }
 
 

@@ -63,7 +63,7 @@ const testimonialSlide = new Swiper(".testimonial__wrapper", {
 
 // ScrollReveal animations
 const sr = ScrollReveal({
-  duration: 1500,
+  duration: 600,
   distance: "100px",
   delay: 0,
   reset: false,
