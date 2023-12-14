@@ -494,8 +494,8 @@ body {
   background-color: #CCF381;
   color: white;
   padding: 1.5rem;
-  padding-right: 1.85rem;
-  padding-left: 1.85rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 50%;
 }
 
@@ -503,8 +503,8 @@ body {
   background-color: #CCF381;
   color: white;
   padding: 1.5rem;
-  padding-right: 1.7rem;
-  padding-left: 1.7rem;
+  padding-right: 1.75rem;
+  padding-left: 1.75rem;
   border-radius: 50%;
 }
 
@@ -625,16 +625,16 @@ body {
 .education-icon-shell1 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
   border-radius: 50%;
 }
 
 .education-icon-shell2 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-radius: 50%;
 }
 
@@ -868,32 +868,32 @@ body {
 .timeline-icon-shell1 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1.35rem;
-  padding-right: 1.35rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
   border-radius: 50%;
 }
 
 .timeline-icon-shell2 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
   border-radius: 50%;
 }
 
 .timeline-icon-shell3 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   border-radius: 50%;
 }
 
 .timeline-icon-shell4 {
   background-color: #CCF381;
   padding: 1rem;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-radius: 50%;
 }
 
