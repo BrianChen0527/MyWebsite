@@ -79,6 +79,8 @@ ul {
   list-style-type: none;
 }
 
+
+
 img {
   max-width: 100%;
   display: block;
@@ -1186,6 +1188,7 @@ body {
   color: white;
   font-size: 2rem;
   text-align: left;
+  color: var(--color-primary-light);
 }
 
 @media screen and (max-width: 768px) {
@@ -1258,7 +1261,7 @@ body {
 
 .research__header {
   max-width: 75rem;
-  min-height: 500px; /* Remove this when research content is added*/
+  min-height: 1200px;
   margin: auto;
   margin-bottom: 2rem;
   text-align: center;
@@ -1276,10 +1279,11 @@ body {
 }
 
 .research__description {
-  text-align: center;
+  text-align: left;
   color: white;
   line-height: 1.5;
   font-size: large;
+  margin-bottom: 2rem;
 }
 
 .posts_container {
