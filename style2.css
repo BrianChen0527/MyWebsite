@@ -1276,6 +1276,33 @@ body {
   border: solid 1px var(--color-primary-light);
 }
 
+.github__link__shell {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.github__link {
+  width: 30%;
+  min-width: 400px;
+  display: inline-block;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: var(--color-primary);
+  ;
+  font-size: 1.5rem;
+  transition: var(--transition);
+  text-align: center;
+  font-weight: 800;
+  border: solid 1px white;
+}
+
+.github__link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-primary-light);
+  border: solid 1px var(--color-primary-light);
+}
 
 /* Research
 --------------------------------------------------------------*/

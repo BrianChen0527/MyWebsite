@@ -73,7 +73,7 @@ sr.reveal(".hero__content, .about__content");
 sr.reveal(".hero__img", { origin: "top" });
 
 sr.reveal(
-  ".posts, .hero__info-wrapper, .about__title, about__description, .skills__content, .qualification__name, .qualification__main_description, .resume-link, .qualification__item, .qualication__main, .education__content, .timeline-left-side, .timeline-right-side, .project__header_content, .project__content, .research__header__title, .research__header__description, .research, .footer__content, .contact-header, .contact-socials, .form-field, .contact-submit-button, .footer-logo-shell, .footer-message, .footer-links-item, .footer-copyright, .transition, .transition_end, .react-logo-shell",
+  ".posts, .hero__info-wrapper, .about__title, about__description, .skills__content, .github__link__shell, .qualification__name, .qualification__main_description, .resume-link, .qualification__item, .qualication__main, .education__content, .timeline-left-side, .timeline-right-side, .project__header_content, .project__content, .research__header__title, .research__header__description, .research, .footer__content, .contact-header, .contact-socials, .form-field, .contact-submit-button, .footer-logo-shell, .footer-message, .footer-links-item, .footer-copyright, .transition, .transition_end, .react-logo-shell",
   {
     delay: 0,
     interval: 100,
