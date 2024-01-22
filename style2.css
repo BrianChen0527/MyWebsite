@@ -1281,21 +1281,20 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 8rem;
+  padding-right: 5rem;
 }
 
 .github__link {
   width: 30%;
-  min-width: 400px;
   display: inline-block;
   padding: 1rem 1rem;
   color: white;
   background-color: var(--color-primary);
-  ;
   font-size: 1.5rem;
   transition: var(--transition);
   text-align: center;
   font-weight: 800;
-  border: solid 1px white;
+  border: solid 3px white;
 }
 
 .github__link:hover {
@@ -2151,6 +2150,10 @@ button[type="submit"]:hover {
 
   .nav__list {
     transform: translate(-23%, -35%);
+  }
+
+  .github__link {
+    min-width: 220px;
   }
 
   .footer-links {
